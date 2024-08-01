@@ -6,6 +6,7 @@
 body {
     font-family: "Roboto", sans-serif;
     /*padding: 0 96px;*/
+    min-height: 100vh; /* Makes body exactly the height of the viewport */
     display: flex;
     flex-direction: column;
 }
@@ -43,7 +44,7 @@ a {
 }
 
 .hero-content {
-    padding: 64px 0;
+    padding: 96px 0;
     display: flex;
     gap: 32px;
 }
@@ -82,7 +83,50 @@ button {
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.information {
+    box-sizing: border-box;
+    padding: 32px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 32px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-boxes {
+    display: flex;
+    gap: 32px;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
     flex: 1;
+}
+
+.information-media {
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.media-subtext {
+    text-align: center;
 }
 
 .footer { 
