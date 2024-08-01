@@ -42,6 +42,45 @@ a {
     font-size: 18px;
 }
 
+.hero-content {
+    padding: 64px 0;
+    display: flex;
+    gap: 32px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.hero-img {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
 .body {
     flex: 1;
 }
@@ -53,5 +92,4 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
