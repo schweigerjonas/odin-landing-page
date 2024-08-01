@@ -149,6 +149,32 @@ button {
     text-align: end;
 }
 
+.action {
+    padding: 64px 128px;
+}
+
+.action-banner {
+    background-color: #3882F6;
+    padding: 48px 112px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    color:#F9FAF8;
+}
+
+.action-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-button {
+    border: 2px solid #F9FAF8;
+}
+
 .footer { 
     background-color: #1F2937;
     color: white;
