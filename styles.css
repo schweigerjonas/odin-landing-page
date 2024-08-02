@@ -11,9 +11,28 @@ body {
     flex-direction: column;
 }
 
+.primary-background {
+    background-color: #1F2937; 
+}
+
+.on-primary-text {
+    color: #F9FAF8; 
+}
+
+.on-primary-secondary-text {
+    color: #E5E7EB;
+}
+
+.secondary-background {
+    background-color: #E5E7EB;
+}
+
+.on-secondary-text {
+    color: #1F2937;
+}
+
 .hero {
-    background-color: #1F2937;
-    padding: 0 128px;
+    padding: 16px 128px 0; 
 }
 
 .header {
@@ -29,8 +48,8 @@ body {
 }
 
 .logo {
-    color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
@@ -39,7 +58,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -56,26 +74,23 @@ a {
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
 }
 
 .hero-subtext {
     margin-bottom: 16px;
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 button {
     background-color: #3882F6;
-    color: #E5E7EB;
     border: none;
     border-radius: 8px;
     padding: 8px 24px;
+    cursor: pointer;
 }
 
 .hero-img {
     background-color: grey;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +115,6 @@ button {
 .information-title {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
     text-align: center;
 }
 
@@ -113,7 +127,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
     flex: 1;
 }
 
@@ -126,15 +140,11 @@ button {
 }
 
 .media-subtext {
-    color: #1F2937;
     text-align: center;
 }
 
 .quote {
-    color: #1F2937;
-    background-color: #E5E7EB;
     padding: 80px 240px;
-
 }
 
 .quote-text {
@@ -145,7 +155,7 @@ button {
 
 .quote-source {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: end;
 }
 
@@ -162,10 +172,6 @@ button {
     align-items: center;
 }
 
-.action-text {
-    color:#F9FAF8;
-}
-
 .action-title {
     font-size: 20px;
     font-weight: bold;
@@ -176,7 +182,6 @@ button {
 }
 
 .footer { 
-    background-color: #1F2937;
     color: white;
     padding: 16px 0;
     display: flex;
