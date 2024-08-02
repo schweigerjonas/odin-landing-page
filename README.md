@@ -4,4 +4,8 @@
 
 ## Goal
 
-Recreate the landing page design found in the references folder. 
+Recreate the landing page design of the following reference image.
+
+**Reference**:
+
+![landing page design reference](./references/landing-page-design.png "Reference")
