@@ -1,6 +1,6 @@
 # Project: Landing Page - The Odin Project
 
-'HTML Foundations'-Project from the web-development-curriculum 'The Odin Project'.
+'Flexbox'-Project from the web-development-curriculum 'The Odin Project'.
 
 ## Goal
 
